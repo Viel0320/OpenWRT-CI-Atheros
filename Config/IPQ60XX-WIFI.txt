@@ -41,3 +41,37 @@ CONFIG_ATH11K_MEM_PROFILE_512M=y
 
 CONFIG_PACKAGE_sqm-scripts-nss=y
 CONFIG_PACKAGE_kmod-qca-nss-crypto=y
+
+CONFIG_PACKAGE_firewall=n
+CONFIG_PACKAGE_firewall4=y
+CONFIG_PACKAGE_kmod-vxlan=y
+CONFIG_PACKAGE_kmod-nft-core=y
+CONFIG_PACKAGE_kmod-nft-bridge=y
+CONFIG_PACKAGE_kmod-nft-fib=y
+CONFIG_PACKAGE_kmod-nft-fullcone=y
+CONFIG_PACKAGE_kmod-nft-nat=y
+CONFIG_PACKAGE_kmod-nft-netdev=y
+CONFIG_PACKAGE_kmod-nft-offload=y
+CONFIG_PACKAGE_kmod-nft-queue=y
+CONFIG_PACKAGE_kmod-nft-socket=y
+CONFIG_PACKAGE_kmod-nft-tproxy=y
+CONFIG_PACKAGE_kmod-nft-compat=y
+CONFIG_PACKAGE_kmod-inet-diag=y
+CONFIG_PACKAGE_kmod-netlink-diag=y
+CONFIG_PACKAGE_luci-app-nikki=y
+CONFIG_PACKAGE_luci-app-istorex=n
+CONFIG_PACKAGE_luci-app-store=y
+CONFIG_PACKAGE_luci-app-istoreenhance=y
+CONFIG_PACKAGE_luci-app-luci-app-routerdog=n
+CONFIG_PACKAGE_luci-app-luci-app-unishare=y
+CONFIG_PACKAGE_luci-app-ssr-plus=n
+CONFIG_PACKAGE_kmod-sched-bpf=y
+CONFIG_PACKAGE_kmod-xdp-sockets-diag-y
+
+# docker
+CONFIG_PACKAGE_luci-lib-docker=y
+CONFIG_PACKAGE_docker=y
+CONFIG_PACKAGE_docker-compose=y
+CONFIG_PACKAGE_dockerd=y
+CONFIG_PACKAGE_luci-app-dockerman=y
+
