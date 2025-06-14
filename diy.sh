@@ -51,6 +51,15 @@ else
   git pull
 fi
 #rm -rf feeds
+
+echo 'src-git kiddin9 https://github.com/kiddin9/kwrt-packages.git;main' >> feeds.conf.default
+# iStore
+git_sparse_clone main https://github.com/linkease/istore-ui app-store-ui
+git_sparse_clone main https://github.com/linkease/istore luci
+
+#kwrt-packages
+git clone --depth=1 https://github.com/kiddin9/kwrt-packages package/kwrt-packages
+
 ./scripts/feeds update -a && ./scripts/feeds install -a
 
 cd package/
